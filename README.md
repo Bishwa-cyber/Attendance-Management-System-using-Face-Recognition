@@ -1,7 +1,3 @@
-Here’s a professional **README** file with appropriate structure, instructions, and formatting for your **Face Recognition Attendance Management System** project:
-
----
-
 # **Face Recognition Attendance Management System**  
 An automated **attendance management system** that uses **face recognition** to mark attendance, developed with Python and OpenCV. This project provides an efficient, secure, and user-friendly solution for managing attendance records.
 
@@ -100,18 +96,35 @@ For database storage:
 ---
 
 ## **Project Structure**
-```
+```plaintext
 Face-Recognition-Attendance
 │
-├── AMS_Run.py                # Main script
-├── TrainingImage/            # Folder to store face images
-├── TrainingImageLabel/       # Folder to store the trained model
-├── attendance.csv            # Attendance record file
-└── README.md                 # Project documentation
+├── __pycache__/                       # Python bytecode cache
+├── images/                            # Stores face images
+├── LICENSE                            # Project license
+├── README.md                          # Project documentation
+├── attendance.csv                     # Attendance record
+├── attendance.py                      # Attendance-related functions
+├── classfier.xml                      # Trained face recognition model
+├── face_recognizer.py                 # Face recognition script
+├── haarcascade_frontalface_default.xml# Haarcascade XML for face detection
+├── login.py                           # Login system script
+├── main.py                            # Main script to run the application
+├── student.py                         # Student details module
+├── tempCodeRunnerFile.py              # Temporary file
+├── test.py                            # Test script for debugging
+└── train.py                           # Model training script
 ```
 
----
 
 ## **Contributors**
 - [Your Name](https://github.com/Bishwa-cyber)  
+
+
+
+
+
+
+
+
 
